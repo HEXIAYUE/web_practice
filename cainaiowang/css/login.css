@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "微软雅黑";
+  background-color: #ebebeb;
+}
+
+#login {
+  width: 100rem;
+  overflow: hidden;
+  zoom: 1;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+#login p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p:nth-child(2) {
+  font-size: 2.6rem;
+}
+
+p:nth-child(3) {
+  color: #666;
+  font-size: 1.4rem;
+  margin-bottom: 5rem;
+}
+
+.textBox {
+  width: 35rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  padding-left: 1rem;
+}
+
+p:nth-child(6) input {
+  background-color: #F0184D;
+  width: 36rem;
+  height: 5rem;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+p:nth-child(7) {
+  width: 36rem;
+  margin: 0 auto;
+  text-align: right !important;
+  color: #666;
+}
+
+p:nth-child(8) input {
+  width: 36rem;
+  height: 5rem;
+  background-color: #fff;
+  border: 1px solid #666;
+}
+
+p:nth-child(9) {
+  color: #666;
+  font-size: 1.4rem;
+}

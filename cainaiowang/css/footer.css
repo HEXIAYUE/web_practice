@@ -1,0 +1,36 @@
+#footer {
+  width: 100%;
+  background-color: #323333;
+  height: 30rem;
+  margin-top: 7rem;
+}
+
+#footer_counter {
+  width: 100rem;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #fff;
+}
+
+#counter_left {
+  width: 46rem;
+  height: 28rem;
+  float: left;
+  
+}
+#footer_counter p {
+  margin-top: 2rem;
+}
+#counter_right {
+  width: 46rem;
+  height: 28rem;
+  overflow: hidden;
+  float: right;
+  
+}
+#counter_right p{
+  color: #777777;
+}
+#counter_right p:nth-child(1){
+  color: #fff;
+}

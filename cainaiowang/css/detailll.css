@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: #f0f0f0;
+}
+
+#tool {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #EAE6E2;
+}
+
+#tool_content {
+  width: 100rem;
+  height: 4rem;
+  line-height: 4rem;
+  margin: 0 auto;
+}
+
+#tool_content ul li {
+  float: left;
+  list-style-type: none;
+  margin-right: 1.5rem;
+  color: gray;
+}
+
+#tool_content ul li:nth-child(10) {
+  margin-left: 40rem;
+}
+
+#tool_content a {
+  text-decoration: none;
+  color: gray;
+}
+
+#tool_content a:hover {
+  color: red;
+}
+
+#blog_content {
+  width: 100rem;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 auto;
+  border-top: 2px solid red;
+  margin-top: 3rem;
+}
+
+#blog_content p:nth-child(1) {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#blog_content p:nth-child(2) img {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+#blog_content p:nth-child(2) img:nth-child(2) {
+  margin-left: 2rem;
+}
+
+#blog_content p:nth-child(2) {
+  color: gray;
+  margin-top: 4rem;
+}
+
+#blog_content p:nth-child(3) {
+  color: gray;
+  border-left: 0.4rem solid red;
+  margin-top: 2rem;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 2rem;
+}
+
+#blog_content p:nth-child(4) {
+  text-indent: 2rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+}
+
+#p1 {
+  width: 100rem;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+
+#p1_div {
+  width: 96rem;
+  background-color: #fff;
+  padding: 4rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+#p1_left {
+  width: 10rem;
+  overflow: hidden;
+  float: left;
+}
+
+#p1_left p {
+  text-align: center;
+}
+
+#p1_right {
+  width: 70rem;
+  overflow: hidden;
+  float: left;
+
+  margin-left: 4rem;
+}
+
+#p1_right textarea {
+  width: 70rem;
+  height: 7rem;
+  border: 1px solid #EAE6E2;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+#p1_right p:nth-child(2) input:nth-child(1) {
+  border: 1px solid #EAE6E2;
+  width: 15rem;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+#p1_right p:nth-child(2) input:nth-child(2){
+   background-color: #2E8bE0;
+   color: #fff;
+   width: 10rem;
+   height: 4rem;
+   margin-left: 44rem;
+}
