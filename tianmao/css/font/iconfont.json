@@ -1,0 +1,30 @@
+{
+  "id": "1878867",
+  "name": "天猫网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "688106",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e791",
+      "unicode_decimal": 59281
+    },
+    {
+      "icon_id": "1191509",
+      "name": "导航栏_模式02",
+      "font_class": "daohanglanmoshi02",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "6446311",
+      "name": "购物车",
+      "font_class": "tianchongxing-",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100px;
+  height: 100%;
+
+  body {
+    font-size: 0.16rem;
+    height: 100%;
+
+    #simpleSearch {
+       display: flex;
+       margin-top: 0.25rem;
+       justify-content: space-between;
+       p:nth-child(1) {
+         margin-left: 0.4rem;
+       }
+
+        #searchDiv {
+          width: 4rem;
+          margin-right: 0.3rem;
+          height: 0.4rem;
+          background-color: #C40000;
+          padding: 1px;
+         
+          a {
+            text-decoration: none;
+            color: #999;
+
+            &:hover {
+              color: red;
+            }
+          }
+
+          input {
+            width: 2.75rem;
+            height: 0.36rem;
+            line-height: 0.36rem;
+            margin: 1px;
+            padding-left: 5px;
+            border: 1px solid transparent;
+            outline: none;
+            cursor: pointer;
+          }
+
+          button {
+            width: 1.1rem;
+            color: #fff;
+            background-color: #C40000;
+            height: 0.38rem;
+            border: 1px solid transparent;
+            cursor: pointer;
+          }
+
+          p:nth-child(2) {
+            margin-top: 5px;
+            padding-left: 0.1rem;
+
+            span {
+              color: #999;
+              margin-right: 0.1rem;
+            }
+          }
+        }
+        
+    }
+
+  }
+}
